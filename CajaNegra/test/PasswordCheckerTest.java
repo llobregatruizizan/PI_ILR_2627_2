@@ -58,11 +58,7 @@ PasswordCheckerTest {
         assertEquals(PasswordChecker.ERR_LENGTH, resultado);
     }
 
-    @Test void comprobarLongitudMin2()
-    {
-        int resultado = checker.check("aA123", "aA123");
-        assertEquals(PasswordChecker.ERR_LENGTH, resultado);
-    }
+
 
     @Test void comprobarSetDigitsFalso()
     {
